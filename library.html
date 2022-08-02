@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+            background-color: rgb(255, 43, 5);
+        }
+        h2{
+            color: rgb(255, 255, 255);
+            margin:.1em 0 .2em .2em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: underline;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .library{
+            margin-left:.5em;
+        }
+        .search{
+            margin:2em 0 0;
+            border:1px solid white;
+        }
+        .search input[type="text"]{
+            background-color: white;
+            color: purple;
+            margin:.2em;
+            padding-left: 1em;
+            border:none;
+            border-radius:5px;
+            height: 1.5em;
+        }
+        .search button{
+            background-color: blue;
+            color:white;
+            border:none;
+            border-radius:5px;
+            padding:2px;
+            transition: all 700ms;
+        }
+        .search button:hover{
+            background-color: white;
+            color: blue;
+            font-weight: 500;
+        }
+        .search span{
+            margin: .5em .2em .5em;
+            color: white;
+            font-style: italic;
+        }
+        .popular{          
+            
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+            grid-gap: .5em;
+        }
+        .popular img {
+            width: 100%;
+            height: 150px;
+            box-sizing: border-box;
+            border: none;
+            padding:0 .2em;
+            border-radius: 5px; 
+        }
+        .popbooks:hover img{
+            transition: all 500ms;
+            transform:scale(1.11);
+            border: 2px solid rgb(255, 255, 255) ;
+        }
+        .popbooks{
+            word-wrap:break-word;
+            text-align: center;
+            box-shadow: 0px 0px 1.5px 2px rgb(248, 235, 235);
+            background-color: rgba(10, 0, 19, 0.993);
+        }
+        .bokdetails{
+            color: rgb(255, 255, 255);
+            display: block;
+            text-align: center;
+            margin: .3em;  
+        }
+    </style>
+</head>
+<body class="library">
+   <center><h1>Library</h1></center>
+<div class="search">
+   <h2>Find Books</h2>
+   <form action="">
+     <input type="text">
+     <button type="submit">Search</button>
+     <br>
+     <span>Select Genere</span>
+     <br>
+     <input type="radio" name="genere" id="" value="all" checked><span>All</span>
+     <input type="radio" name="genere" id="" value="classic"><span>classic</span>
+     <input type="radio" name="genere" id="" value="romance"><span>Romance</span>
+     <input type="radio" name="genere" id="" value="Biography"><span>Biography</span>
+     <input type="radio" name="genere" id="" value="History"><span>History</span>
+    </form>
+</div>
+    <center><h1 style="font-size:1.3em; font-family: 'Times New Roman', Times, serif;margin: .3em 0;">Popular Books</h1></center>
+    <div class="popular">
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Catch-22</span> <img src="/book1.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">DesignThinking</span> <img src="/book3.JPG" ></div>
+        <div class="popbooks"><span class="bokdetails">Acadamic writing</span> <img src="/book2.JPG" ></div>
+    </div>
+</body>
+</html>
