@@ -42,7 +42,7 @@ h2 {
 }
 
 p {
-    font-size: 20pt;
+    font-size: 2em;
     color: black;
     font-family: Geneva, Tahoma, sans-serif;
     border-left: 1px solid black;
@@ -118,7 +118,7 @@ body{
 .content p{
     border-radius: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 1.5em;
     font-style:italic;
     opacity: .8;
 }
