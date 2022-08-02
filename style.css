@@ -73,6 +73,7 @@ div.nav {
     text-align: center;
 }
 
+
 table {
     border-collapse: collapse;
     text-align: left;
@@ -111,9 +112,7 @@ body{
     background-color: rgb(255, 43, 5);
 }
 .content{
-
     width:70%;
-
 }
 .content p{
     border-radius: 5px;
@@ -212,4 +211,15 @@ span{
 .message button:hover{
     background-color: white;
     color: black;   
+}
+@media screen and ( max-width:600px) {
+    div .content p{
+        width: 100%;
+        font-size: 1em;
+    }
+    div.sidebar{
+        position: unset;
+        width:auto;
+        margin: 1em;
+    }
 }
