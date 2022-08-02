@@ -62,11 +62,15 @@ div.nav {
     margin: 5px 0;
     justify-content: space-evenly;
     box-sizing: border-box;
+    flex-wrap: wrap;
 
 }
 .nav a{
     margin:0 5px 0;
     font-size: 1.5em;
+    flex-basis: 200px;
+    flex-grow: 0;
+    text-align: center;
 }
 
 table {
