@@ -223,3 +223,10 @@ span{
         margin: 1em;
     }
 }
+.cont{
+    min-height: 100vh;
+    position: relative;
+}
+.libfoot{
+    position: absolute;
+}
